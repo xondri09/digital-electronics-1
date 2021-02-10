@@ -12,5 +12,5 @@ https://sk.wikipedia.org/wiki/Hlavná_stránka
 ###Tabulka
 Meno | Priezvisko
 ------------ | -------------
-Jano | Content from cell 2
-Matej | Content in the second column
+Jano | Mokrý
+Matej | Zelený
