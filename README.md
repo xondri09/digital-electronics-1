@@ -9,7 +9,7 @@ https://sk.wikipedia.org/wiki/Hlavná_stránka
 
 ```
 
-###Tabulka
+###Tabuľka
 Meno | Priezvisko
 ------------ | -------------
 Jano | Mokrý
