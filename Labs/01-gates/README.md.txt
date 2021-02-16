@@ -1,1 +1,1 @@
-#Lab 1 - gates
+# **Lab 1 - gates**
