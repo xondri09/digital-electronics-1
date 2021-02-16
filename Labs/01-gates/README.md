@@ -11,3 +11,8 @@ begin
 
 end architecture dataflow;
 ```
+
+## Simulated waveforms:
+![Waveform1](Images/gates_waveforms_1)
+
+## Playground link: https://www.edaplayground.com/x/Rciq
