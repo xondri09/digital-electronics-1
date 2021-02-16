@@ -13,6 +13,6 @@ end architecture dataflow;
 ```
 
 ## Simulated waveforms:
-![GitHub Logo](/Images/gates_waveforms_1.png)
+![GitHub Logo](Images/gates_waveforms_1.png)
 
 ## Playground link: https://www.edaplayground.com/x/Rciq
