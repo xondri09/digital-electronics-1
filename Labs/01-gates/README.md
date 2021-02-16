@@ -12,7 +12,7 @@ begin
 end architecture dataflow;
 ```
 
-## Simulated waveforms:
+## Simulated waveforms of De Morgan's laws of function:
 ![waveform1](Images/gates_waveforms_1.png)
 
 ## Playground link: https://www.edaplayground.com/x/Rciq
