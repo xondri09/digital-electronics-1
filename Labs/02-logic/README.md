@@ -27,3 +27,5 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
 	 
 ## Karnaugh maps for 2-bit: 
 ![Karnaugh maps for 2-bit](images/karnafove_mapy_upravene.png)
+
+## [My Eda playground link for 2-bit comparator](https://www.edaplayground.com/x/bTqH)
