@@ -42,3 +42,53 @@ begin
 
 end architecture Behavioral;
 ```
+
+# VHDL testbench:
+```vhdl
+    p_stimulus : process
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started" severity note;
+
+		s_b <= "1110"; s_a <= "0000"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0000" severity error;
+
+		s_b <= "1110"; s_a <= "0001"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0001" severity error;
+
+		s_b <= "1110"; s_a <= "0010"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0010" severity error;
+
+		s_b <= "1110"; s_a <= "0011"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0011" severity error;
+
+		s_b <= "1110"; s_a <= "0100"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0100" severity error;
+
+		s_b <= "1110"; s_a <= "0101"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0101" severity error;
+
+		s_b <= "1110"; s_a <= "0110"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0110" severity error;
+
+		s_b <= "1110"; s_a <= "0111"; wait for 100 ns;
+		assert ((s_B_greater_A = '1') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+		report "Test failed for input combination: 1110, 0111" severity error;
+
+        -- Report a note at the end of stimulus process
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
+
+# Report of one error in console:
+![Error from the code](images/error.png)
+
+# [My Eda playground link for 4-bit comparator](https://www.edaplayground.com/x/faPT)
