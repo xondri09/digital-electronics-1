@@ -28,4 +28,17 @@ less_PoS = 	M0 . 	       M4 . 	      M5 . 	      M8 .	     M9 . 	     M10 . 	   
 ## Karnaugh maps for 2-bit: 
 ![Karnaugh maps for 2-bit](images/karnafove_mapy_upravene.png)
 
-## [My Eda playground link for 2-bit comparator](https://www.edaplayground.com/x/bTqH)
+# [My Eda playground link for 2-bit comparator](https://www.edaplayground.com/x/bTqH)
+
+## 4-bit comparator:
+
+# VHDL Design:
+```vhdl
+architecture Behavioral of comparator_2bit is
+begin
+    B_less_A_o   <= '1' when (b_i < a_i) else '0';
+    B_greater_A_o <= '1' when (b_i > a_i) else '0';
+    B_equals_A_o <= '1' when (b_i = a_i) else '0'
+
+end architecture Behavioral;
+```
