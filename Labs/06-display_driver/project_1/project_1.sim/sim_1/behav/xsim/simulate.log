@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Rozum/digital-electronics-1/Labs/06-display_driver/project_1/project_1.srcs/sim_1/new/tb_driver_7seg_4digit.vhd
+Note: Stimulus process started
+Time: 350 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Rozum/digital-electronics-1/Labs/06-display_driver/project_1/project_1.srcs/sim_1/new/tb_driver_7seg_4digit.vhd
+Note: Stimulus process started
+Time: 700 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Rozum/digital-electronics-1/Labs/06-display_driver/project_1/project_1.srcs/sim_1/new/tb_driver_7seg_4digit.vhd
