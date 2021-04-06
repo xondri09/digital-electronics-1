@@ -153,9 +153,8 @@ begin
                             s_state <= SOUTH_GO;
                             
                             else
-                            s_state <= SOUTH_WAIT;
-                            s_cnt   <= c_ZERO;
-                            
+                                s_state <= SOUTH_WAIT;
+                                s_cnt   <= c_ZERO;                           
                             end if;
                         end if;
                         
